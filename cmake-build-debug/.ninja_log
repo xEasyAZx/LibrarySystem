@@ -1,3 +1,6 @@
 # ninja log v5
 0	1054	7210694214140496	CMakeFiles/LibrarySystem.dir/main.cpp.obj	ec7ed1444766ba1d
 1060	1288	7210694216400919	LibrarySystem.exe	810b5b4be44a90e0
+9	1195	7210715054296154	CMakeFiles/LibrarySystem.dir/main.cpp.obj	ec7ed1444766ba1d
+26	1342	7210715055782015	CMakeFiles/LibrarySystem.dir/LibraryAccount.cpp.obj	c6a95d2e5c18b40
+1344	1572	7210715057992388	LibrarySystem.exe	387bbadd9dff6ebf

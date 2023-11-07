@@ -21,18 +21,18 @@ class LibraryAccount {
     LibraryAccount(int userID, string userPassword, string name, string email, int phoneNumber, string accountType);
 
     //Accessors
-    int getUserID();
-    string getName();
-    string getEmail();
-    int getPhoneNumber();
-    string getAccountType();
+    int getUserID() const;
+    string getName() const;
+    string getEmail() const;
+    int getPhoneNumber() const;
+    string getAccountType() const;
 
     //Mutators
     void setUserID();
     void setName();
     void setEmail();
     void setPhoneNumber();
-    string setAccountType();
+    void setAccountType();
 
     //Methods
     void displayAccountDetails();
