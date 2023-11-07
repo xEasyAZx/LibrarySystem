@@ -6,18 +6,14 @@
 using namespace std;
 
 //Constructors
-LibraryAccount::LibraryAccount() {
-
-}
-
 LibraryAccount::LibraryAccount(int userID, std::string userPassword, std::string name, std::string email,
-                               int phoneNumber, std::string accountType) {
+                               int phoneNumber) {
     this->userID = userID;
     this->userPassword = userPassword;
     this->name = name;
     this->email = email;
     this->phoneNumber = phoneNumber;
-    this->accountType = accountType;
+    this->accountType = "Member User";
 }
 
 //Accessors
@@ -60,6 +56,7 @@ void LibraryAccount::setAccountType() {
 
 //Methods
 void LibraryAccount::displayAccountDetails() {
+    cout << endl;
     cout << "User ID: " << userID << endl;
     cout << "Name: " << name << endl;
     cout << "Email: " << email << endl;

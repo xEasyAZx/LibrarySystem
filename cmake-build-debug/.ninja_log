@@ -1,6 +1,7 @@
 # ninja log v5
-0	1054	7210694214140496	CMakeFiles/LibrarySystem.dir/main.cpp.obj	ec7ed1444766ba1d
-1060	1288	7210694216400919	LibrarySystem.exe	810b5b4be44a90e0
-9	1195	7210715054296154	CMakeFiles/LibrarySystem.dir/main.cpp.obj	ec7ed1444766ba1d
-26	1342	7210715055782015	CMakeFiles/LibrarySystem.dir/LibraryAccount.cpp.obj	c6a95d2e5c18b40
-1344	1572	7210715057992388	LibrarySystem.exe	387bbadd9dff6ebf
+6	1223	7210742743060332	CMakeFiles/LibrarySystem.dir/main.cpp.obj	ec7ed1444766ba1d
+1256	1477	7210727504009089	LibrarySystem.exe	387bbadd9dff6ebf
+33	1340	7210742744250696	CMakeFiles/LibrarySystem.dir/LibraryAccount.cpp.obj	c6a95d2e5c18b40
+21	1260	7210742743415505	CMakeFiles/LibrarySystem.dir/MemberLibraryAccount.cpp.obj	c9a80b7776452e43
+5	721	7212514375216909	build.ninja	5f5863c18e00e007
+5	354	7212514380613126	LibrarySystem.exe	387bbadd9dff6ebf
