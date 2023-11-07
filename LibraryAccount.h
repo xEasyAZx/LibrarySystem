@@ -14,11 +14,11 @@ class LibraryAccount {
     string name;
     string email;
     int phoneNumber;
-    string accountType;
+    string accountType; //Set to Member User By Default
 
+public:
     //Constructor
-    LibraryAccount();
-    LibraryAccount(int userID, string userPassword, string name, string email, int phoneNumber, string accountType);
+    LibraryAccount(int userID, string userPassword, string name, string email, int phoneNumber);
 
     //Accessors
     int getUserID() const;
