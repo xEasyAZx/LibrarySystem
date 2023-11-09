@@ -8,6 +8,7 @@ using namespace std;
 
 
 class LibraryAccount {
+protected:
     //Attributes
     int userID;
     string userPassword;
@@ -18,6 +19,7 @@ class LibraryAccount {
 
 public:
     //Constructor
+    LibraryAccount();
     LibraryAccount(int userID, string userPassword, string name, string email, int phoneNumber);
 
     //Accessors

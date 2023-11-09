@@ -61,6 +61,12 @@ build CMakeFiles/LibrarySystem.dir/LibraryAccount.cpp.obj: CXX_COMPILER__Library
   OBJECT_DIR = CMakeFiles\LibrarySystem.dir
   OBJECT_FILE_DIR = CMakeFiles\LibrarySystem.dir
 
+build CMakeFiles/LibrarySystem.dir/MemberLibraryAccount.cpp.obj: CXX_COMPILER__LibrarySystem_unscanned_Debug C$:/Users/aziel/OneDrive/Desktop/LibrarySystem/MemberLibraryAccount.cpp || cmake_object_order_depends_target_LibrarySystem
+  DEP_FILE = CMakeFiles\LibrarySystem.dir\MemberLibraryAccount.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LibrarySystem.dir
+  OBJECT_FILE_DIR = CMakeFiles\LibrarySystem.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target LibrarySystem
@@ -69,7 +75,7 @@ build CMakeFiles/LibrarySystem.dir/LibraryAccount.cpp.obj: CXX_COMPILER__Library
 #############################################
 # Link the executable LibrarySystem.exe
 
-build LibrarySystem.exe: CXX_EXECUTABLE_LINKER__LibrarySystem_Debug CMakeFiles/LibrarySystem.dir/main.cpp.obj CMakeFiles/LibrarySystem.dir/LibraryAccount.cpp.obj
+build LibrarySystem.exe: CXX_EXECUTABLE_LINKER__LibrarySystem_Debug CMakeFiles/LibrarySystem.dir/main.cpp.obj CMakeFiles/LibrarySystem.dir/LibraryAccount.cpp.obj CMakeFiles/LibrarySystem.dir/MemberLibraryAccount.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\LibrarySystem.dir

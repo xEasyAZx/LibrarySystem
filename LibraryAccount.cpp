@@ -6,6 +6,10 @@
 using namespace std;
 
 //Constructors
+LibraryAccount::LibraryAccount() {
+
+}
+
 LibraryAccount::LibraryAccount(int userID, std::string userPassword, std::string name, std::string email,
                                int phoneNumber) {
     this->userID = userID;
@@ -63,3 +67,5 @@ void LibraryAccount::displayAccountDetails() {
     cout << "Phone Number: " << phoneNumber << endl;
     cout << "Account Type: " << accountType << endl;
 }
+
+

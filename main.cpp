@@ -2,6 +2,7 @@
 #include <string>
 
 #include "LibraryAccount.h"
+#include "MemberLibraryAccount.h"
 
 using namespace std;
 

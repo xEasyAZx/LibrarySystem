@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(LibrarySystem main.cpp
         LibraryAccount.cpp
-        LibraryAccount.h)
+        LibraryAccount.h
+        MemberLibraryAccount.cpp
+        MemberLibraryAccount.h)
